@@ -1,7 +1,7 @@
 import meraki
 from pprint import pprint
 
-token = "7ef1388b87bb660c969ce6b4ff0e95efb791e3c2"
+token = #(Your_token_goes_here)
 meraki = meraki.DashboardAPI(token)
 
 #################### GET ORGANIZATIONS ####################
