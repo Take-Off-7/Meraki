@@ -4,7 +4,7 @@ import json
 url = "https://dashboard.meraki.com/api/v0/organizations"
 
 headers = {
-  'X-Cisco-Meraki-API-Key': 'cda1694c0cb04ebd24afd36a715b56879ae1f472'
+  'X-Cisco-Meraki-API-Key': #(Your_key_goes_here)
 }
 
 response = requests.get(url, headers=headers).json()
